@@ -1346,6 +1346,12 @@
 		(uuid "c6970ab1-732e-4877-9486-f0a77c1bdf50")
 	)
 	(junction
+		(at 152.4 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c94b27f1-b1f4-4071-b18b-812a23426b4f")
+	)
+	(junction
 		(at 114.3 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1356,6 +1362,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd93d8c4-7480-429d-aa16-b5b31b11f8d0")
+	)
+	(junction
+		(at 139.7 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf3ecc45-57f6-47e8-8b47-e1eef1e18283")
 	)
 	(junction
 		(at 177.8 38.1)
@@ -1697,6 +1709,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 114.3) (xy 142.24 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361b642c-5eae-4f65-828a-9b7384209b6f")
+	)
+	(wire
+		(pts
 			(xy 139.7 73.66) (xy 139.7 76.2)
 		)
 		(stroke
@@ -1937,6 +1959,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 127) (xy 165.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f932e65-8f89-4155-bc63-17c131667d36")
+	)
+	(wire
+		(pts
 			(xy 165.1 99.06) (xy 165.1 101.6)
 		)
 		(stroke
@@ -2024,6 +2056,16 @@
 			(type default)
 		)
 		(uuid "74040c75-f039-4b3f-8f41-66f6d3c6b2ed")
+	)
+	(wire
+		(pts
+			(xy 139.7 114.3) (xy 139.7 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c940f86-5bb5-42be-bcfe-582e9854118c")
 	)
 	(wire
 		(pts
@@ -2167,6 +2209,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 114.3) (xy 149.86 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9827d788-c935-4650-a8e8-953cad82addc")
+	)
+	(wire
+		(pts
 			(xy 60.96 83.82) (xy 59.69 83.82)
 		)
 		(stroke
@@ -2194,6 +2246,16 @@
 			(type default)
 		)
 		(uuid "a29d2426-2cd4-4380-bc1e-963cebbf1d7a")
+	)
+	(wire
+		(pts
+			(xy 152.4 88.9) (xy 152.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b2b781-c078-4327-ac49-e68befb91a6d")
 	)
 	(wire
 		(pts
@@ -2637,7 +2699,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 127) (xy 165.1 127)
+			(xy 101.6 127) (xy 139.7 127)
 		)
 		(stroke
 			(width 0)
@@ -4929,6 +4991,74 @@
 			(project "boardloaf"
 				(path "/3a093344-253b-4353-a388-64989d9a245c"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 146.05 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dfcf09d-8f4f-4318-b585-4711c0ba7276")
+		(property "Reference" "JP3"
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 146.05 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 146.05 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3aa8778d-7d19-4f6d-b88c-82fa3cace957")
+		)
+		(pin "2"
+			(uuid "19196e12-1acf-4b01-98ff-2d7f11c7a53e")
+		)
+		(instances
+			(project "boardloaf"
+				(path "/3a093344-253b-4353-a388-64989d9a245c"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
