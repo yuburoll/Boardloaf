@@ -11,11 +11,3 @@
 #ifndef CHORDIAL_HOLD
     #define CHORDAL_HOLD
 #endif
-
-#ifdef MASTER_LEFT
-    #undef MASTER_LEFT
-#endif
-#ifdef MASTER_RIGHT
-    #undef MASTER_RIGHT
-#endif
-#define MASTER_LEFT

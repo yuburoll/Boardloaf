@@ -38,7 +38,10 @@
     "split" : {
         "enabled" : true,
         "bootmagic" : {
-            "matrix": [ 7, 2 ]
+            "matrix" : [ 7, 2 ]
+        },
+        "handedness" : {
+            "matrix_grid" : [ "GP1", "GP27" ]
         },
         "serial" : {
             "driver" : "vendor",
