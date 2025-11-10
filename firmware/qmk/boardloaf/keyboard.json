@@ -41,7 +41,7 @@
             "matrix" : [ 7, 2 ]
         },
         "handedness" : {
-            "matrix_grid" : [ "GP1", "GP27" ]
+            "pin" : "GP28"
         },
         "serial" : {
             "driver" : "vendor",
