@@ -4972,7 +4972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "606d0dff-0dd7-463b-b4b2-120c7bd65aab")
-		(property "Reference" "JP4"
+		(property "Reference" "JP3"
 			(at 29.21 35.56 0)
 			(effects
 				(font
@@ -5024,7 +5024,7 @@
 		(instances
 			(project "boardloaf"
 				(path "/3a093344-253b-4353-a388-64989d9a245c"
-					(reference "JP4")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -5040,7 +5040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67244164-5ba3-4ad0-be44-79bae5cabc1e")
-		(property "Reference" "JP3"
+		(property "Reference" "JP4"
 			(at 29.21 27.94 0)
 			(effects
 				(font
@@ -5092,7 +5092,7 @@
 		(instances
 			(project "boardloaf"
 				(path "/3a093344-253b-4353-a388-64989d9a245c"
-					(reference "JP3")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
