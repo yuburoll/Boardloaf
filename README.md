@@ -6,7 +6,7 @@
 
 - 2x rp2040 zero (boards formly created by waveshare) (Approx. 4-8$)
 
-- 2x KeeNoard PCB Boards (5 boards are 2$ on JLC w/o shipping cost)
+- 2x Boardloaf PCB Boards (5 boards are 2$ on JLC w/o shipping cost)
 
 - 1x printed case sets, which you want to make it (4$ for sandwitch, Approx. 12$ if you buy printed one)
 
