@@ -22,7 +22,7 @@
 
 - 1x 1/8(3.5mm) TRRS cable (Approx. 2$, may TRS cable can take the place.)
 
-- 36x Keyswitches & Keycaps & Hotswap SMD (Maybe this cost varies too much. 10$ on average)
+- 36x MX Keyswitches & Keycaps & MX Hotswap Sockets (Maybe this cost varies too much. 10$ on average)
 
 Approx. 26$-37$(w/o shipping cost) needed to build one.
 
