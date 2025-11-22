@@ -38,7 +38,9 @@ Or, simply flash uf2 in "uf2Examples" folder by changing rp2040 zero in dfu mode
 
 ## Licenses
 
-all codes follow MIT license.
+miryoku keymap follows GNU GPL 2.0 license.
+
+all other codes follow MIT license.
 
 all designs and the hardware board follow CC BY-SA 4.0 license.
 
