@@ -1,3 +1,5 @@
+![boardloafTitle](images/boardloaf16x9.jpg)
+
 # Boardloaf
 
 36 key hotswappable split keyboard in 100x100 pcb
@@ -29,6 +31,10 @@ Approx. 26$-37$(w/o shipping cost) needed to build one.
 ## Build Guides
 
 work in progress. sorry!
+
+You can see the images in the folder, which uploaded for build guides. Especially you may see how to solder the controller board, because this uses surface mounting by castelated pins.
+
+Images are captured with prototype version PCB, which is different from the current gerber. Current gerber has two "Jump when back side" jumper point on each side, to check which hand is on the position. You may see diode jumper on assembly image for the same role, and you don't need to jump via diodes if you jump jumpers correctly.
 
 This uses [qmk](https://qmk.fm/) to build the firmware. Copy "boardloaf" folder which is in "firmware/qmk" directory to "qmk_firmware\keyboards" folder, and build it via qmk msys.
 
