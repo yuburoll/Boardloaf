@@ -1,4 +1,4 @@
-![boardloafImage](images/boardloaf16x9.jpg)
+![boardloafImage](images/boardloaf5x4.jpg)
 
 # Boardloaf
 
