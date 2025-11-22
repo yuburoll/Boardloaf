@@ -1,4 +1,4 @@
-![boardloafTitle](images/boardloaf16x9.jpg)
+![boardloafImage](images/boardloaf16x9.jpg)
 
 # Boardloaf
 
@@ -38,7 +38,7 @@ Images are captured with prototype version PCB, which is different from the curr
 
 This uses [qmk](https://qmk.fm/) to build the firmware. Copy "boardloaf" folder which is in "firmware/qmk" directory to "qmk_firmware\keyboards" folder, and build it via qmk msys.
 
-Or, simply flash uf2 in "uf2Examples" folder by changing rp2040 zero in dfu mode, which can be executed by holding boot button while plugging in usb c. Vial versions are work in progress.
+Or, simply flash uf2 in "uf2Examples" folder by changing rp2040 zero in dfu mode, which can be executed by holding boot button while plugging in usb c. Vial versions are also prepared.
 
 
 
